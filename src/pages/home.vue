@@ -78,13 +78,21 @@
         </div>
       </router-link>
     </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/my-resume'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/resume-cool.png" />
+          <span>my-resume</span>
+        </div>
+      </router-link>
+    </div>
   </div>
 </div>
 </template>
 
 <script>
 import Vue from 'vue';
-export default Vue.component('resume', {
+export default Vue.component('home', {
     name: 'app'
 });
 </script>

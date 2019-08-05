@@ -1,33 +1,105 @@
-/* #*/ export const PERSON = `
+export const PERSON = `
 name:
-  first: John
+  first: Takeaki
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Kawai
+about: 初めまして。川井健滉と申します。私は2015年にこの業界に入ってからこれまでノンストップで自己研鑽に励んで来ました。
+       最近は小規模アプリケーションの開発に注力しており、現在は9末目処で開発を進めています。
+       10月から開発したいものが取り敢えずなくなるので、何かないかなと思い今回応募させて頂きました。
+       Webアプリケーションの開発であれば
+       基本的には自由にやらせて貰えると力を発揮出来るタイプです。よろしくお願いいたします。どうか雇ってください。
+position: Web Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1996
+  location: Osaka
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
-
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
+- company: 株式会社ef-4
   position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+  timeperiod: 2016年8月 ~ 2017年2月
+  description: |-
+    Web開発業務に携わる。
+
+    【業務内容】
+    ・テスト計画策定/テスト
+    ・DBプロシージャーの作成/修正
+    ・Webシステム機能改修/チャットボットの実装
+
+    【OS】 Windows, MacOS, CentOS
+    【言語】 Python3, PHP
+    【フレームワーク】 CakePHP, Django
+
+  website: https://www.ef-4.co.jp/
+
+- company: 株式会社GRID
+  position: AI Developer
+  timeperiod: 2017年3月 ~ 2017年9月
+  description: |-
+    深層学習を活用したデータの解析業務に携わる。
+
+    【業務内容】
+    ・データ解析
+    ・自社フレームワークの機能開発
+    ・その他開発業務
+
+    【実績・取り組み】 
+    ・製油所脱硫装置の各種制御装置最適化に関する分析 
+    ・社内分析用GPU分散環境の構築可用性の調査 
+    ・ReNomGUI開発、評価関数実装等
+
+    【OS】Ubuntu, MacOS
+    【言語】Python2,3, Shell
+    【フレームワーク】 ReNom, Vuejs
+    【その他ツール】 Docker, ApacheSpark
+
+- company: 株式会社アカリ
+  position: Web Developer
+  timeperiod: 2017年10月 ~ 2018年3月
+  description: |-
+    フロントエンドエンジニアとして勤務。 
+
+    【業務内容】
+    ・フロントエンド開発 (HTML/CSS/JS) 
+    
+    【実績・取り組み】
+    ・GAテクノロジーズ株式会社様 新卒採用サイト作成
+      ページ数22P (http://recruit.ga-tech.co.jp/)
+      担当 フロントエンド実装
+
+    ・川崎重工業特設サイト(Stories)リニューアル
+      ページ数 22P (https://global.kawasaki.com/en/stories/) 
+      担当 フロントエンド実装 
+      
+    ・その他コンペ用モック作成/社内サイト修正/環境整備等
+
+    【OS】 MacOS
+    【言語】 HTML/CSS/JS/Python
+    【その他ツール・ライブラリ】 Photoshop/Sketch/jQuery/ejs/gulp
+
+- company: 大陽日産株式会社
+  position: Web Developer
+  timeperiod: 2018年5月 ~ 2019年3月
+  description: |-
+    Python エンジニアとして勤務。
+
+    【業務内容】
+    アプリケーション設計
+    ・自社システムのアプリなどの開発業務
+    ・詳細設計書、テスト設計書作成
+    ・新規開発/機能追加/改修 
+    ・要件定義、基本設計、詳細設計、実装、テスト、導入、運用サポート 
+    ・詳細設計書、テスト設計書作成
+    【実績・取り組み】
+    -廃盤情報管理システム構築 担当:全行程 
+    -水電解装置最適起動日時意思決定システム構築 担当:全行程
+
+    【OS】
+    Windows Server 2008 Windows10
+    CentOS / Ubuntu
+    【言語】 HTML/CSS/JS/Python
+    【その他ツール・ライブラリ】 Pycharm, Docker, Vagrant
+    GCP, AWS (Elastic Beanstalk, EC2, S3/EFS/RDS/Glacier/Route53/Codecommit/Codebuild/Codedeploy/Codepipeline) /Teangantt/Lucidchart/Django/pyt est/selenium/pygrib/xmlx/bs4/
 
 education:
 - degree: Master of Arts
@@ -66,27 +138,31 @@ projects:
   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
   url: https://github.com/salomonelli/best-resume-ever
 
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+# hobbies:
+# - name: Video Games
+#   iconClass: fa fa-gamepad
+#   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+# - name: Drawing
+#   iconClass: fa fa-pencil
+#   url: https://example.com
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: サーバーレスを使用して最初の６ヶ月で学んだ６つのこと
+  description: |-
+    6/28日現在693いいね。デイリー2位獲得。ウィークリー2位獲得。
+  url: https://qiita.com/takitakis/items/8bd6ae3a95ea726ea730
+- name: 2019年版 最先端のフロントエンド開発者になるために学ぶべきこと
+  description: 6/28日現在776いいね。デイリー1位獲得。
+  url: https://qiita.com/baby-degu/items/da30fa71b8f48fffc568
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: taki.kwi@gmail.com
+  phone: 090-6757-3247
+  street: 東京
+  # city: New York
+  # website: johndoe.com
+  github: takitakis
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: en
+lang: ja
 `
